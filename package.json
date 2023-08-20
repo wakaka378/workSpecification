@@ -11,7 +11,8 @@
     "lint": "eslint . --ext .vue,.js,.jsx,.cjs,.mjs,.ts,.tsx,.cts,.mts --fix --ignore-path .gitignore",
     "format": "prettier --write src/",
     "prepare": "husky install",
-    "commit": "cz"
+    "commit": "cz",
+    "version": "conventional-changelog -p cz-conventional-changelog -i CHANGELOG.md -s -r 0 && git add CHANGELOG.md"
   },
   "dependencies": {
     "mitt": "^3.0.1",
@@ -32,6 +33,7 @@
     "@vue/tsconfig": "^0.4.0",
     "commitlint": "^17.7.1",
     "commitlint-config-cz": "^0.13.3",
+    "conventional-changelog": "^4.0.0",
     "cz-conventional-changelog": "^3.3.0",
     "cz-customizable": "^7.0.0",
     "element-plus": "^2.3.7",
