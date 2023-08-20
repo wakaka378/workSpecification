@@ -1,5 +1,5 @@
 /// <reference types="vite/client" />
-import mitt from 'mitt'
+// import mitt from 'mitt'
 
 declare module '*.vue' {
   import { ComponentOptions } from 'vue'
