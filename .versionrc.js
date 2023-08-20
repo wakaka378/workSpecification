@@ -16,6 +16,5 @@ module.exports = {
     { type: ':wrench: CI', section: '👷 123123CI 配置' },
     { type: 'WIP', section: '👷 Continuous Integration | CI wip' },
     { type: ':construction: WIP', section: '👷 123123 Integration | CI wip' }
-
   ]
 }
