@@ -1,6 +1,6 @@
 {
   "name": "vue-project",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "private": true,
   "scripts": {
     "dev": "vite",
@@ -16,6 +16,7 @@
     "version": "conventional-changelog -p cz-conventional-changelog -i CHANGELOG.md -s -r 0 && git add CHANGELOG.md"
   },
   "dependencies": {
+    "conventional-changelog": "^4.0.0",
     "mitt": "^3.0.1",
     "pinia": "^2.1.3",
     "pinia-plugin-persistedstate": "^3.1.0",
@@ -34,7 +35,6 @@
     "@vue/tsconfig": "^0.4.0",
     "commitlint": "^17.7.1",
     "commitlint-config-cz": "^0.13.3",
-    "conventional-changelog": "^4.0.0",
     "cz-conventional-changelog": "^3.3.0",
     "cz-customizable": "^7.0.0",
     "element-plus": "^2.3.7",
