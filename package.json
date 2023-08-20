@@ -13,7 +13,7 @@
     "prepare": "husky install",
     "commit": "cz",
     "changelog": "standard-version",
-    "version": "conventional-changelog -p gitmoji-config -i CHANGELOG.md -s -r 0 && git add CHANGELOG.md"
+    "version": "conventional-changelog -p angular -i CHANGELOG.md -s -r 0 -n ./changelog-option.js && git add CHANGELOG.md"
   },
   "dependencies": {
     "conventional-changelog": "^4.0.0",

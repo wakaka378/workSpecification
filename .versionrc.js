@@ -1,4 +1,5 @@
 module.exports = {
+  "header":"# 更新历史 \n\n",
   types: [
     { type: 'feat', section: '✨ Features | 新功能' },
     { type: 'fix', section: '🐛 Bug Fixes | Bug 修复' },
@@ -11,6 +12,9 @@ module.exports = {
     { type: 'revert', section: '⏪ Revert | 回退' },
     { type: 'build', section: '📦‍ Build System | 打包构建' },
     { type: 'chore', section: '🚀 Chore | 构建/工程依赖/工具' },
-    { type: 'ci', section: '👷 Continuous Integration | CI 配置' }
+    { type: 'ci', section: '👷 Continuous Integration | CI 配置' },
+    { type: 'WIP', section: '👷 Continuous Integration | CI wip' },
+    { type: ':construction: WIP', section: '👷 123123 Integration | CI wip' }
+
   ]
 }
