@@ -19,8 +19,8 @@ module.exports = {
   ],
   skip: {
     bump: true, //缓存变化，并重置git状态至最近的tag节点
-    changelog: true, //自动产出changelog文档
-    commit: false, //提交变动
+    changelog: false, //自动产出changelog文档
+    commit: true, //提交变动
     tag: true //在git中增加tag标识
   }
 }
