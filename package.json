@@ -31,7 +31,9 @@
     "@vue/eslint-config-typescript": "^11.0.3",
     "@vue/tsconfig": "^0.4.0",
     "commitlint": "^17.7.1",
+    "commitlint-config-cz": "^0.13.3",
     "cz-conventional-changelog": "^3.3.0",
+    "cz-customizable": "^7.0.0",
     "element-plus": "^2.3.7",
     "eslint": "^8.39.0",
     "eslint-plugin-vue": "^9.11.0",
@@ -48,7 +50,7 @@
   },
   "config": {
     "commitizen": {
-      "path": "./node_modules/cz-conventional-changelog"
+      "path": "node_modules/cz-customizable"
     }
   }
 }
