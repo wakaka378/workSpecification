@@ -1,7 +1,13 @@
-'use strict'
-
 module.exports = {
   writerOpts: {
-    mainTemplate: '{{commitGroups.[0].commits.[0].type}}{{testContext}}template'
+    transform: (commit) => {
+      if (commit.type === 'feat') {
+        commit.type = 'hahahhahah ❤️'
+      } else if (commit.type === ':sparkles: feat') {
+        commit.type = 'cz config feat'
+      }
+      console.log(commit.type)
+      return
+    }
   }
 }
