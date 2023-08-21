@@ -1,6 +1,42 @@
 # 更新历史 
 
 
+# 0.1.0 (2023-08-21)
+
+
+### ✅ Tests
+
+* Asdfasdf ([3122727](https://github.com/wakaka378/workSpecification/commit/3122727))
+
+
+### ✨ Features
+
+* **accounts**: Fasdf23er ([ecebce6](https://github.com/wakaka378/workSpecification/commit/ecebce6))
+* **custom**: 11 ([da0d41a](https://github.com/wakaka378/workSpecification/commit/da0d41a))
+* **custom**: 123123 ([bb826b9](https://github.com/wakaka378/workSpecification/commit/bb826b9))
+
+
+
+
+
+## 0.0.16 (2023-08-21)
+
+
+### ✅ Tests
+
+* Asdfasdf ([3122727](https://github.com/wakaka378/workSpecification/commit/3122727))
+
+
+### ✨ Features
+
+* **accounts**: Fasdf23er ([ecebce6](https://github.com/wakaka378/workSpecification/commit/ecebce6))
+* **custom**: 11 ([da0d41a](https://github.com/wakaka378/workSpecification/commit/da0d41a))
+* **custom**: 123123 ([bb826b9](https://github.com/wakaka378/workSpecification/commit/bb826b9))
+
+
+
+
+
 ## 0.0.15 (2023-08-21)
 
 
