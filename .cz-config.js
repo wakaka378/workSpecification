@@ -1,6 +1,10 @@
 module.exports = {
   types: [
     {
+      value: ':construction: WIP',
+      name: '🚧 WIP:      正在进行的工作',
+    },
+    {
       value: ':sparkles: feat',
       name: '✨ feat:     新功能'
     },
@@ -13,16 +17,16 @@ module.exports = {
       name: '🎉 init:     初始化'
     },
     {
-      value: ':pencil2: docs',
-      name: '✏️  docs:     文档变更'
+      value: ':memo: docs',
+      name: '📝 docs:     文档变更'
     },
     {
       value: ':lipstick: style',
       name: '💄 style:    代码的样式美化'
     },
     {
-      value: ':recycle: refactor',
-      name: '♻️  refactor: 重构'
+      value: ':hammer: refactor',
+      name: '🔨 refactor: 既不修复错误也不添加功能的代码更改'
     },
     {
       value: ':zap: perf',
@@ -45,8 +49,8 @@ module.exports = {
       name: '🚀 chore:    构建/工程依赖/工具'
     },
     {
-      value: ':construction_worker: ci',
-      name: '👷 ci:       CI related changes'
+      value: ':wrench: ci',
+      name: '🔧 ci:       CI 相关更改'
     }
   ],
   messages: {
