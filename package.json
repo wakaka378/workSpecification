@@ -13,7 +13,19 @@
     "prepare": "husky install",
     "commit": "cz",
     "changelog": "standard-version",
-    "version": "conventional-changelog -p  -i CHANGELOG.md -s -r 0 -n ./changelog-option.js && git add CHANGELOG.md"
+    "version": "conventional-changelog -p angular -i CHANGELOG.md -s -r 0 -n && git add CHANGELOG.md "
+  },
+  "release": {
+    "plugins": [
+      "@semantic-release/commit-analyzer",
+      "@semantic-release/release-notes-generator",
+      ["@semantic-release/changelog", {
+        "changelogFile": "CHANGELOG.md",
+        "changelogTitle": "# Changelog"
+      }],
+      "@semantic-release/npm",
+      "@semantic-release/github"
+    ]
   },
   "dependencies": {
     "conventional-changelog": "^4.0.0",
