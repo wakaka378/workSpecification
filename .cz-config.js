@@ -17,8 +17,8 @@ module.exports = {
       name: '🐛  fix:      修复Bug',
     },
     {
-      value: ':wrench: CI',
-      name: '🔧  CI:       目录结构变更(CI, Building, Tool...)',
+      value: ':wrench: ci',
+      name: '🔧  ci:       目录结构变更(CI, Building, Tool...)',
     },
 
     {

@@ -1,6 +1,11 @@
 ## 0.1.2 (2023-08-21)
 
 
+### ✨ Features
+
+* **accounts**: Tets new feat ([c194c18](https://github.com/wakaka378/workSpecification/commit/c194c18))
+
+
 
 
 
