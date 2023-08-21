@@ -1,27 +1,71 @@
 module.exports = {
   types: [
-    { value: ':sparkles: feat', name: 'feat:     ✨ 新增功能 | A new feature', emoji: '' },
-    { value: 'fix', name: 'fix:       🐛 修复缺陷 | A bug fix', emoji: ':bug:'  },
-    { value: 'docs', name: 'docs:     Documentation only changes' },
     {
-      value: 'style',
-      name: 'style:    Changes that do not affect the meaning of the code\n            (white-space, formatting, missing semi-colons, etc)',
+      value: ':rocket: release',
+      name: '🚀  release:  发布版本/发布标签',
     },
     {
-      value: 'refactor',
-      name: 'refactor: A code change that neither fixes a bug nor adds a feature',
+      value: ':construction: WIP',
+      name: '💪  WIP:      正在进行的工作',
     },
     {
-      value: 'perf',
-      name: 'perf:     A code change that improves performance',
+      value: ':sparkles: feat',
+      name: '✨  feat:     新的特性',
     },
-    { value: 'test', name: 'test:     Adding missing tests' },
     {
-      value: 'chore',
-      name: 'chore:    Changes to the build process or auxiliary tools\n            and libraries such as documentation generation',
+      value: ':bug: fix',
+      name: '🐛  fix:      修复Bug',
     },
-    { value: 'revert', name: 'revert:   Revert to a commit' },
-    { value: 'WIP', name: 'WIP:      Work in progress' },
+    {
+      value: ':wrench: CI',
+      name: '🔧  CI:       目录结构变更(CI, Building, Tool...)',
+    },
+
+    {
+      value: ':pencil: docs',
+      name: '📝  docs:     仅文档更改',
+    },
+    {
+      value: ':twisted_rightwards_arrows: merge',
+      name: '🔀  merge:    合并分支',
+    },
+    {
+      value: ':rewind: revert',
+      name: '⏪  revert:   版本回滚',
+    },
+    {
+      value: ':white_check_mark: test',
+      name: '✅  test:     添加缺失的测试或更正现有测试',
+    },
+    {
+      value: ':chart_with_upwards_trend: perf',
+      name: '📈  perf:     提高性能的代码更改',
+    },
+    {
+      value: ':thought_balloon: chore',
+      name: '🗯   chore:    不修改src或测试文件的更改。例如更新构建任务、包管理器',
+    },
+    {
+      value: ':lipstick: ui',
+      name: '💄  UI:       更新UI和样式文件。',
+    },
+    {
+      value: ':art: style',
+      name: '🎨  style:    不影响代码含义的更改（空白、格式、缺少分号等）',
+    },
+    {
+      value: ':package: dep_up',
+      name: '📦  dep_up:   更新已编译的文件或包。',
+    },
+
+    {
+      value: ':hammer: refactor',
+      name: '🔨  refactor: 既不修复错误也不添加功能的代码更改',
+    },
+    {
+      value: ':truck: mv',
+      name: '🚚  mv:       移动或重命名文件。',
+    },
   ],
 
   scopes: [{ name: 'accounts' }, { name: 'admin' }, { name: 'exampleScope' }, { name: 'changeMe' }],
