@@ -1,7 +1,7 @@
 module.exports = {
   types: [
-    { value: 'feat', name: 'feat:     A new feature' },
-    { value: 'fix', name: 'fix:      A bug fix', emoji: '🐛'  },
+    { value: ':sparkles: feat', name: 'feat:     ✨ 新增功能 | A new feature', emoji: '' },
+    { value: 'fix', name: 'fix:       🐛 修复缺陷 | A bug fix', emoji: ':bug:'  },
     { value: 'docs', name: 'docs:     Documentation only changes' },
     {
       value: 'style',
