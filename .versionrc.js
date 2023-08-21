@@ -2,6 +2,7 @@ module.exports = {
   header: '# 更新历史 \n\n',
   types: [
     { type: 'feat', section: '✨ Features | 新功能', hidden: false},
+    { type: 'release', section: '🚀 Release | 发布', hidden: false},
     { type: 'fix', section: '🐛 Bug Fixes | Bug 修复', hidden: false },
     { type: 'init', section: '🎉 Init | 初始化', hidden: true },
     { type: 'test', section: '✅ Tests | 测试', hidden: false },
