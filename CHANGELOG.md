@@ -1,9 +1,33 @@
+# 更新历史 
+
+
+# 0.2.0 (2023-08-21)
+
+
+### ✨ Features
+
+* **accounts**: Tets new feat ([c194c18](https://github.com/wakaka378/workSpecification/commit/c194c18))
+
+
+### 🔧 Continuous Integration
+
+* **accounts**: Ci ([8d85269](https://github.com/wakaka378/workSpecification/commit/8d85269))
+
+
+
+
+
 ## 0.1.2 (2023-08-21)
 
 
 ### ✨ Features
 
 * **accounts**: Tets new feat ([c194c18](https://github.com/wakaka378/workSpecification/commit/c194c18))
+
+
+### 🔧 Continuous Integration
+
+* **accounts**: Ci ([8d85269](https://github.com/wakaka378/workSpecification/commit/8d85269))
 
 
 
@@ -93,8 +117,3 @@
 
 
 ## 0.0.1 (2023-08-20)
-
-
-
-
-
