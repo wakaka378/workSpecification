@@ -1,114 +1,64 @@
 module.exports = {
   types: [
     {
-      value: ':rocket: release',
-      name: '🚀  release:  发布版本/发布标签',
-    },
-    {
-      value: ':construction: WIP',
-      name: '💪  WIP:      正在进行的工作',
-    },
-    {
       value: ':sparkles: feat',
-      name: '✨  feat:     新的特性',
+      name: '✨ feat:     新功能'
     },
     {
       value: ':bug: fix',
-      name: '🐛  fix:      修复Bug',
+      name: '🐛 fix:      修复bug'
     },
     {
-      value: ':wrench: ci',
-      name: '🔧  ci:       目录结构变更(CI, Building, Tool...)',
-    },
-
-    {
-      value: ':pencil: docs',
-      name: '📝  docs:     仅文档更改',
+      value: ':tada: init',
+      name: '🎉 init:     初始化'
     },
     {
-      value: ':twisted_rightwards_arrows: merge',
-      name: '🔀  merge:    合并分支',
+      value: ':pencil2: docs',
+      name: '✏️  docs:     文档变更'
     },
     {
-      value: ':rewind: revert',
-      name: '⏪  revert:   版本回滚',
+      value: ':lipstick: style',
+      name: '💄 style:    代码的样式美化'
+    },
+    {
+      value: ':recycle: refactor',
+      name: '♻️  refactor: 重构'
+    },
+    {
+      value: ':zap: perf',
+      name: '⚡️ perf:     性能优化'
     },
     {
       value: ':white_check_mark: test',
-      name: '✅  test:     添加缺失的测试或更正现有测试',
+      name: '✅ test:     测试'
     },
     {
-      value: ':chart_with_upwards_trend: perf',
-      name: '📈  perf:     提高性能的代码更改',
+      value: ':rewind: revert',
+      name: '⏪️ revert:   回退'
     },
     {
-      value: ':thought_balloon: chore',
-      name: '🗯   chore:    不修改src或测试文件的更改。例如更新构建任务、包管理器',
+      value: ':package: build',
+      name: '📦️ build:    打包'
     },
     {
-      value: ':lipstick: ui',
-      name: '💄  UI:       更新UI和样式文件。',
+      value: ':rocket: chore',
+      name: '🚀 chore:    构建/工程依赖/工具'
     },
     {
-      value: ':art: style',
-      name: '🎨  style:    不影响代码含义的更改（空白、格式、缺少分号等）',
-    },
-    {
-      value: ':package: dep_up',
-      name: '📦  dep_up:   更新已编译的文件或包。',
-    },
-
-    {
-      value: ':hammer: refactor',
-      name: '🔨  refactor: 既不修复错误也不添加功能的代码更改',
-    },
-    {
-      value: ':truck: mv',
-      name: '🚚  mv:       移动或重命名文件。',
-    },
+      value: ':construction_worker: ci',
+      name: '👷 ci:       CI related changes'
+    }
   ],
-
-  scopes: [{ name: 'accounts' }, { name: 'admin' }, { name: 'exampleScope' }, { name: 'changeMe' }],
-
-  usePreparedCommit: false, // to re-use commit from ./.git/COMMIT_EDITMSG
-  allowTicketNumber: false,
-  isTicketNumberRequired: false,
-  ticketNumberPrefix: 'TICKET-',
-  ticketNumberRegExp: '\\d{1,5}',
-
-  // it needs to match the value for field type. Eg.: 'fix'
-  /*
-  scopeOverrides: {
-    fix: [
-
-      {name: 'merge'},
-      {name: 'style'},
-      {name: 'e2eTest'},
-      {name: 'unitTest'}
-    ]
-  },
-  */
-  // override the messages, defaults are as follows
   messages: {
-    type: '选择一种你的提交类型:',
-    scope: '选择一个scope (可选):',
-    // used if allowCustomScopes is true
-    customScope: '表示该变更的范围:',
-    subject: '短说明:\n',
-    body: '长说明，使用"|"换行(可选)：\n',
-    breaking: '非兼容性说明 (可选):\n',
-    footer: '关联关闭的issue，例如：#31, #34(可选):\n',
-    confirmCommit: '确定提交说明? yes/no',
+    type: '请选择提交类型(必填)',
+    customScope: '请输入文件修改范围(可选)',
+    subject: '请简要描述提交(必填)',
+    body: '请输入详细描述(可选)',
+    breaking: '列出任何BREAKING CHANGES(可选)',
+    footer: '请输入要关闭的issue(可选)',
+    confirmCommit: '确定提交此说明吗？'
   },
-
   allowCustomScopes: true,
-  allowBreakingChanges: ['feat', 'fix'],
-  // skip any questions you want
-  // skipQuestions: ['scope', 'body'],
-
-  // limit subject length
-  subjectLimit: 100,
-  // breaklineChar: '|', // It is supported for fields body and footer.
-  // footerPrefix : 'ISSUES CLOSED:'
-  // askForBreakingChangeFirst : true, // default is false
-};
+  allowBreakingChanges: [':sparkles: feat', ':bug: fix'],
+  subjectLimit: 72
+}
