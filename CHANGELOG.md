@@ -1,5 +1,21 @@
+# 更新历史 
+
+
+### [0.0.13](https://github.com/wakaka378/workSpecification/compare/v0.0.10...v0.0.13) (2023-08-21)
+
+
+### 🐛 Bug Fixes | Bug 修复
+
+* fff ([1677fea](https://github.com/wakaka378/workSpecification/commit/1677fea207a4ccd70a5c1dfb99c66f437a81c483))
+
+
+### ✅ Tests | 测试
+
+* **changeMe:** asdf ([dcb3d7d](https://github.com/wakaka378/workSpecification/commit/dcb3d7d131dcf485cd4a2b91465e4d3011c0566e))
+
 ## <small>0.0.13 (2023-08-21)</small>
 
+* test(changeMe): asdf ([dcb3d7d](https://github.com/wakaka378/workSpecification/commit/dcb3d7d))
 * fix: fff ([1677fea](https://github.com/wakaka378/workSpecification/commit/1677fea))
 * WIP: wipta ([8c97a63](https://github.com/wakaka378/workSpecification/commit/8c97a63))
 * :sparkles: feat(custom): 11 ([da0d41a](https://github.com/wakaka378/workSpecification/commit/da0d41a))
@@ -77,6 +93,3 @@
 * fix: test close issue ([6857269](https://github.com/wakaka378/workSpecification/commit/6857269)), closes [#1](https://github.com/wakaka378/workSpecification/issues/1)
 * ci: add husky lint-staged commilint ([8b533c9](https://github.com/wakaka378/workSpecification/commit/8b533c9))
 * feat: project init ([791ab41](https://github.com/wakaka378/workSpecification/commit/791ab41))
-
-
-

@@ -5,8 +5,8 @@ module.exports = {
   },
   referenceActions: ['issue', 'fixes'],
   types: [
-    { type: 'feat', section: 'feat:     A new feature' },
-    { type: 'fix', section: 'fix:      A bug fix', emoji: '🐛'  },
+    { type: 'feat', section: 'feat:     ✨ 新增功能 | A new feature', emoji: ':sparkles:' },
+    { type: 'fix', section: 'fix:       🐛 修复缺陷 | A bug fix', emoji: ':bug:'  },
     { type: 'docs', section: 'docs:     Documentation only changes' },
     {
       type: 'style',
