@@ -1,6 +1,6 @@
 {
   "name": "vue-project",
-  "version": "0.0.14",
+  "version": "0.0.15",
   "private": true,
   "scripts": {
     "dev": "vite",
@@ -13,7 +13,7 @@
     "prepare": "husky install",
     "commit": "cz",
     "changelog": "standard-version",
-    "version": "conventional-changelog -p gitmoji-config -i CHANGELOG.md -s -r 0 -n && git add CHANGELOG.md "
+    "version": "conventional-changelog -p gitmoji-config -i CHANGELOG.md -s -r 0 && git add CHANGELOG.md "
   },
   "release": {
     "plugins": [
